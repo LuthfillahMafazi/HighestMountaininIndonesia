@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailGunung">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gunung_agung"
+            android:id="@+id/imgGunung"/>
+
+        <TextView
+            android:id="@+id/txtGunung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GUNUNG AGUNG"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtDetailGunung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="aku yang lelah tanpamu aku yang rentan karena cinta yang telah hilang dari mu ]
+tuk menggapaimu kau lah cinta sejati walau yagn tertulis untukku adalah yang terbaik untukmu
+kan ku jadikan kau kenangan yang terindah dalam hidupku namun takan mudah baguku meninggalkan jejak hindupmu
+kan teukir abadi sebagai kenangan yang terindah"/>
+
+    </LinearLayout>
+</ScrollView>
